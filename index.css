@@ -6,7 +6,9 @@
 body{
     display: grid;
     grid-template-columns: 50% 50%;
-    background-color: rgb(241, 250, 255);
+    /* background-color: rgb(241, 250, 255); */
+
+    background-color: indigo;
 }
 
 .LeftMain{
@@ -62,7 +64,7 @@ body{
     height: 100px;
     background: url(./assets/Unpaired.jpg);
     position: relative;
-    left: 30%;
+    left: 15%;
     top: 30%;
     display: grid;
     grid-template-columns:33.3% 33.3% 33.3%;
@@ -70,22 +72,24 @@ body{
 
 .ShoeTypes div:nth-child(1){
  width: 100px;
- height: 100px;
+ height: 70px;
  background: url(./assets/Unpaired.jpg);
  background-repeat: no-repeat;
  background-size: 100px;
- 
+ background-position: center;
+    
 
 }
 
 .ShoeTypes div:nth-child(2){
     width: 100px;
-    height: 100px;
+    height: 70px;
     background: url(./assets/Unpaired2.jpg);
     background-size: 100px;
     position: relative;
     left: 250%;
     top: 0%;
+    background-position: center;
    }
 
    .ShoeTypes div:nth-child(3){
@@ -98,3 +102,36 @@ body{
     left: 500%;
     top: 0%;
    }
+
+   .ShoeTypes div:nth-child(4){
+    width: 100px;
+    height: 70px;
+    background: url(./assets/Unpaired.jpg);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    margin-top: 100%;
+    
+   
+   }
+   
+   .ShoeTypes div:nth-child(5){
+       width: 100px;
+       height: 70px;
+       background: url(./assets/Unpaired2.jpg);
+       background-size: 100px;
+       position: relative;
+       left: 250%;
+       top: 30%;
+       background-position: center;
+      }
+   
+      .ShoeTypes div:nth-child(6){
+       width: 100px;
+       height: 100px;
+       background: url(./assets/Unpaired.jpg);
+       background-repeat: no-repeat;
+       background-size: 100px;
+       position: relative;
+       left: 500%;
+       top: 30%;
+      }
